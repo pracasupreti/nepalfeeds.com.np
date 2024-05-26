@@ -3488,3 +3488,9 @@ var THEMEMASCOT = {};
   THEMEMASCOT.initialize.TM_preLoaderClickDisable();
 
 })(jQuery);
+
+
+
+// js for copyright year 
+
+document.getElementById("currentYear").innerText = new Date().getFullYear();
