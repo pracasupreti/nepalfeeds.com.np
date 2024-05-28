@@ -18244,6 +18244,15 @@ $grid-breakpoints: (
     font-size: 2.0rem; } }
 
 
+
+   /* gallery css starts here  */
+   .img-thumbnail{
+    height: 238px;
+    width: 100%;
+    object-fit: contain;
+
+   }
+
     /* WhatsApp Float Starts Here */
 
 .float {
