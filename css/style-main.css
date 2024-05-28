@@ -16349,7 +16349,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
   @media (max-width: 991.98px) {
     .service-item-current-style1 {
       padding: 50px 30px; } }
-  .service-item-current-style1 .icon-box:after {
+  /* .service-item-current-style1 .icon-box:after {
     font-size: 4rem;
     color: #F0ECE3;
     counter-increment: my-sec-counter;
@@ -16359,7 +16359,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     top: -8px;
     line-height: 1;
     font-weight: 600;
-    transition: all 0.4s ease-in-out; }
+    transition: all 0.4s ease-in-out; } */
   .service-item-current-style1 .icon-box .icon i {
     display: inline-block;
     font-size: 48px;

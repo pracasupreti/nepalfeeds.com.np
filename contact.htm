@@ -106,16 +106,13 @@
   </head>
   <body class="has-side-panel side-panel-right">
     <div class="side-panel-body-overlay"></div>
-    <div
-      id="side-panel-container"
-      class="dark"
-      data-tm-bg-img="images/side-push-bg.jpg"
-    >
+    <!--side panel container in navbar start here -->
+    <!-- <div id="side-panel-container" class="dark" data-tm-bg-img="/images/pattern1.png">
       <div class="side-panel-wrap">
         <div id="side-panel-trigger-close" class="side-panel-trigger">
           <a href="#"><i class="fa fa-times side-panel-trigger-icon"></i></a>
         </div>
-        <img class="logo mb-50" src="images/nepal-feeds-logo.png" alt="Logo" />
+        <img class="logo mb-50" src="images/logo-wide.png" alt="Logo" />
         <p>
           Nepal Feeds is the one of the best feed producer of Nepal. It has over
           3,750 plus dealer's network inside Nepal. People trust the quality and
@@ -129,33 +126,35 @@
           </h4>
           <div class="latest-posts">
             <article class="post clearfix pb-0 mb-10">
-              <a class="post-thumb" href="#"
+              <a class="post-thumb" href="news-details.html"
                 ><img src="images/blog/s1.jpg" alt="images"
               /></a>
               <div class="post-right">
                 <h5 class="post-title mt--0">
-                  <a href="#">Download Brochure</a>
+                  <a href="news-details.html">Download Brochure</a>
                 </h5>
                 <p>Lorem ipsum dolor...</p>
               </div>
             </article>
             <article class="post clearfix pb-0 mb-10">
-              <a class="post-thumb" href="#"
+              <a class="post-thumb" href="news-details.html"
                 ><img src="images/blog/s2.jpg" alt="images"
               /></a>
               <div class="post-right">
                 <h5 class="post-title mt--0">
-                  <a href="#">Download Newsletter</a>
+                  <a href="news-details.html">Download Newsletter</a>
                 </h5>
                 <p>Lorem ipsum dolor...</p>
               </div>
             </article>
             <article class="post clearfix pb-0 mb-10">
-              <a class="post-thumb" href="#"
+              <a class="post-thumb" href="news-details.html"
                 ><img src="images/blog/s3.jpg" alt="images"
               /></a>
               <div class="post-right">
-                <h5 class="post-title mt--0"><a href="#">Contact Us</a></h5>
+                <h5 class="post-title mt--0">
+                  <a href="news-details.html">Contact Us</a>
+                </h5>
                 <p>Lorem ipsum dolor...</p>
               </div>
             </article>
@@ -206,9 +205,10 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <!--side panel container in navbar ends here -->
     <div id="wrapper" class="clearfix">
-      <!-- <?php include ("./header.php"); ?> -->
+      <!-- <?htm include ("./header.htm"); ?> -->
       <!-- Header section start here -->
       <header id="header" class="header header-layout-type-header-2rows">
         <div class="header-top">
@@ -242,19 +242,19 @@
               <div class="container position-relative">
                 <div class="row header-nav-col-row">
                   <div class="col-sm-auto align-self-center">
-                    <a class="menuzord-brand site-brand" href="index.php">
-                      <img
+                    <a class="menuzord-brand site-brand" href="index.htm">
+                      <!-- <img
                         class="logo-default logo-1x"
                         src="images/logo-wide.png"
                         alt="Logo"
-                      />
+                      /> -->
                       <img
-                        class="logo-default logo-2x retina"
+                        class="logo-default retina"
                         src="images/favicon-mod.png"
                         alt="Logo"
                       />
                       <img
-                        class="logo-default logo-2x retina"
+                        class="logo-default retina"
                         src="images/nepal-feeds-logo.png"
                         alt="Logo"
                       />
@@ -269,12 +269,13 @@
                       data-align="right"
                     >
                       <ul id="main-nav" class="menuzord-menu">
-                        <li class="active"><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <!-- <li><a href="products.php">Products</a></li> -->
-                        <!-- <li><a href="services.php">Services</a></li> -->
-                        <li><a href="team.php">Team</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li ><a href="index.htm">Home</a></li>
+                        <li><a href="about.htm">About</a></li>
+                        <!-- <li><a href="products.htm">Products</a></li> -->
+                        <!-- <li><a href="services.htm">Services</a></li> -->
+                        <li><a href="team.htm">Team</a></li>
+                        <li><a href="gallery.htm">Gallery</a></li>
+                        <li class="active"><a href="contact.htm">Contact</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -309,7 +310,8 @@
                     </div>
                   </div>
                 </li> -->
-                      <li class="hidden-mobile-mode">
+                      <!-----navbar sidebar starts here-->
+                      <!-- <li class="hidden-mobile-mode">
                         <div id="side-panel-trigger" class="side-panel-trigger">
                           <a href="#">
                             <div class="hamburger-box">
@@ -317,7 +319,8 @@
                             </div>
                           </a>
                         </div>
-                      </li>
+                      </li> -->
+                      <!-----navbar sidebar end here-->
                     </ul>
                     <div id="top-nav-search-form" class="clearfix">
                       <form action="#" method="GET">
@@ -923,8 +926,9 @@
               <div class="row justify-content-center pt-20 pb-20">
                 <div class="col-lg-9">
                   <div class="footer-paragraph text-center">
-                    Copyright &copy; <span id="currentYear"></span>, Nepal Feeds & Agrotech Pvt. Ltd. All
-                    Rights Reserved <br />Technology Partner : 
+                    Copyright &copy; <span id="currentYear"></span>, Nepal Feeds
+                    & Agrotech Pvt. Ltd. All Rights Reserved <br />Technology
+                    Partner :
                     <a href="https://pracas.net" target="_blank">PRACAS</a>
                   </div>
                 </div>
