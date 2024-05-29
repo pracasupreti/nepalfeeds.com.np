@@ -16004,7 +16004,8 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
  * -----------------------------------------------
 */
 .tm-sc-team-box {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  margin-bottom: 105px;
   position: relative;
   transition: all 0.3s ease; }
   @media (prefers-reduced-motion: reduce) {
