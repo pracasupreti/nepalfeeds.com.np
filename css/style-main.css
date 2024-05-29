@@ -16032,9 +16032,12 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
     border-radius: 4px;
     bottom: -70px;
     left: 20px;
-    padding: 25px;
+    /* padding: 25px; */
+    /* padding: 39px; */
+    padding-top: 40px;
     position: absolute;
     right: 20px;
+    height: 150px;
     transition: all 0.3s ease 0s; }
     @media (prefers-reduced-motion: reduce) {
       .tm-sc-team-box .tm-content {
@@ -16066,11 +16069,13 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
           @media (prefers-reduced-motion: reduce) {
             .tm-sc-team-box .tm-content .team-social ul li a {
               transition: none; } }
-  .tm-sc-team-box:hover .tm-thumb img {
+              /* hover animation in team image starts here  */
+  /* .tm-sc-team-box:hover .tm-thumb img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1); }
+    transform: scale(1.1); } */
+   /* hover animation in team image ends here  */
   .tm-sc-team-box:hover .tm-content {
     box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1); }
   .tm-sc-team-box:hover .team-social {
