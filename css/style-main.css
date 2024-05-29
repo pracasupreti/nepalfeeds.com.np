@@ -15885,6 +15885,7 @@ footer#footer.footer-inverted .widget.widget_archive ul > li, footer#footer.foot
   padding: 50px;
   position: relative;
   z-index: 1;
+  
   transition: all 0.5s; }
   @media (prefers-reduced-motion: reduce) {
     .tm-sc-testimonials.testimonials-style-current-theme .testimonial-text-holder {
