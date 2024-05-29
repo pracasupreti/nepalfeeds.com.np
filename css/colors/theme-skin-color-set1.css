@@ -1362,9 +1362,12 @@ ul.list.theme-colored4.check li:before,
  * -----------------------------------------------
 */
 header#header .header-top {
-  background-color: #007d3e; }
+  /* background-color: #007d3e; */
+  background-color: skyblue;
+}
   header#header .header-top.bg-theme-colored2 .contact-info li .font-icon {
-    color: #007d3e; }
+    color: #007d3e;
+   }
 
 /*
  * header-mid.scss
