@@ -8089,7 +8089,7 @@ blockquote.blockquote-style8 {
   border-width: 0;
   font-weight: 600;
   letter-spacing: .05rem;
-  padding: 1.1rem 2.2rem;
+  /* padding: 1.1rem 2.2rem; */
   overflow: hidden;
   display: inline-block;
   white-space: nowrap;
